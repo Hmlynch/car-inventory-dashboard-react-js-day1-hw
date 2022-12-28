@@ -19,7 +19,7 @@ export default function CarsInventory() {
         <div className="carsInventory">
             <h1>Inventory</h1>
             <p>We have a wide variety of vehicles for sale below!</p>
-            { cars.map(car => <Car key={car.id} car={car} />) }
+            { cars.map(car => <Car key={car.id} car={car} showLink={true} />) }
         </div>
     )
 }

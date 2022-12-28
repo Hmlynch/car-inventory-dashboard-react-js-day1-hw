@@ -27,6 +27,7 @@ export default function CarSingle() {
 
     return (
         <div className="car">
+            Post Singles: {id}
             <Car car={car}/>
         </div>
     )
